@@ -25,6 +25,10 @@ public class flowers_page extends AppCompatActivity {
     }
 
     private void createFlowerList() {
+        flowers.add(new Flowers(R.drawable.flo2,"Lavender","25$"));
+        flowers.add(new Flowers(R.drawable.flo3,"Yellow","23$"));
+        flowers.add(new Flowers(R.drawable.flo4,"Light Lavender","25$"));
+        flowers.add(new Flowers(R.drawable.flo5,"Short Lavender","18$"));
         flowers.add(new Flowers(R.drawable.flo1,"Short Green","7$"));
     }
 }

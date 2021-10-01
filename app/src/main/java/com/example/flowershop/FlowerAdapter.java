@@ -48,6 +48,7 @@ public class FlowerAdapter extends RecyclerView.Adapter<FlowerAdapter.ViewHolder
     @Override
     public void onBindViewHolder(@NonNull FlowerAdapter.ViewHolder viewHolder, int i) {
         Flowers flower= flowers.get(i);
+        viewHolder.imgFlower.setImageResource(flower.getImgFlower());
         viewHolder.viewName.setText(flower.getTextName());
         viewHolder.viewPrice.setText(flower.getTextPrice());
     }
